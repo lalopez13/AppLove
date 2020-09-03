@@ -1,11 +1,14 @@
 /*CLASES REUTILIZABLES*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-*:before, *:after {
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -15,6 +18,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: "Raleway", sans-serif;
 }
 
 img {
@@ -29,12 +33,14 @@ img {
   padding-right: 14px;
 }
 
-.container:before, .container:after {
+.container:before,
+.container:after {
   content: " ";
   display: table;
 }
 
-*:before, *:after {
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -57,12 +63,12 @@ img {
 }
 
 a {
-  color: #373B47;
+  color: #373b47;
   text-decoration: none;
 }
 
 a:hover {
-  color: #E95853;
+  color: #e95853;
 }
 
 .text-uppercase {
@@ -70,4 +76,158 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+body {
+  position: absolute;
+}
+
+/*HEADER*/
+
+header {
+  width: 1200px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  height: 80px;
+  font-weight: 600;
+  z-index: 5;
+}
+
+a img {
+  float: right;
+  margin: -5px 20px 0 0;
+  width: 50px;
+}
+
+a {
+  margin-left: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.header {
+  margin: 20px;
+  align-items: center;
+}
+
+/*SECTION APPLOVE*/
+
+.container img {
+  margin-top: -300px;
+  width: 1172px;
+}
+
+.section-one {
+  transform: translateY(100px);
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.section-one p {
+  margin-bottom: 70px;
+  margin-top: -45px;
+}
+
+.section-one > a {
+  color: #fff;
+  background-color: #5dcc71;
+  position: relative;
+  padding: 20px;
+  width: 300px;
+  height: 150px;
+}
+
+.section-one h1 {
+  font-size: 50px;
+}
+
+/*SECTION SERVICES*/
+.services {
+  background-color: #e95853;
+  color: white;
+}
+
+.services h2,
+h4 {
+  text-align: center;
+}
+
+.container-services img {
+  margin-top: 0;
+}
+
+.container-flex {
+  margin-top: -120px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.services > img {
+  height: 50px;
+  width: 50px;
+}
+
+.container-services {
+  margin-top: 200px;
+  text-align: center;
+  padding: 5px;
+}
+.container-services h6 {
+  margin: auto;
+}
+.container-services h5 {
+  margin: 40px 0 0;
+}
+
+/*SECTION WORK*/
+
+.work h2 {
+  text-align: center;
+}
+
+.central-image {
+  display: flex;
+  justify-content: center;
+}
+
+.work img {
+  margin-top: 80px;
+  position: relative;
+}
+
+.photo img {
+  width: 300px;
+  padding: 10px;
+}
+.photo p {
+  text-align: center;
+}
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+/*FOOTER*/
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #373b47;
+  color: white;
+  height: 50px;
+}
+
 
