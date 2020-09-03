@@ -43,7 +43,7 @@ El reto consiste en maquetar la web **AppLove**, este es el resultado final:
 
 - Dentro de la carpeta `assets` se encuentra la carpeta `images` donde encontrarás todas las imágenes necesarias para completar tu proyecto.
 
-- Deberás **actualizar el archivo `README.md`** explicando el contenido de tu repositorio.
+- Deberás **actualizar el archivo `README.md`** explicando el contenido de tu repositori.
 
 - El tipo de fuente a utilizar será `Raleway`.
 
